@@ -1,0 +1,49 @@
+fastapi==0.110.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+pydantic==2.5.3
+python-dotenv==1.0.0
+
+# Audio/Video Processing
+ffmpeg-python==0.2.0
+pydub==0.25.1
+librosa==0.10.1
+soundfile==0.12.1
+
+# AI/ML Libraries
+openai-whisper==20231117
+torch==2.1.2
+torchaudio==2.1.2
+transformers==4.36.2
+sentence-transformers==2.2.2
+
+# Speech Processing
+pyannote.audio==3.1.1
+speechbrain==0.5.16
+praat-parselmouth==0.4.3
+
+# Translation
+indictrans2==1.0.0
+googletrans==4.0.0rc1
+
+# TTS
+TTS==0.22.0
+coqui-tts==0.22.0
+
+# Computer Vision for Lip Sync
+opencv-python==4.9.0.80
+face-recognition==1.3.0
+dlib==19.24.2
+
+# Source Separation
+demucs==4.0.1
+
+# Utilities
+numpy==1.24.4
+scipy==1.11.4
+matplotlib==3.8.2
+Pillow==10.1.0
+requests==2.31.0
+httpx==0.26.0
+websockets==12.0
